@@ -1,0 +1,87 @@
+.titulli {
+    width: 80px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.media{ 
+    font-size: 12px;
+    margin-left: -10px;
+    margin-top: 30px;
+}
+
+.menu {
+    display: inline-block;
+    font-family: 'Open Sans';
+}
+
+.menu li {
+    display: inline-block;
+    font-size: 18px;
+    font-weight:600;
+
+}
+
+.menu a {
+   text-decoration: none;
+   color: black;
+   transition: 0.15s;
+   padding: 20px;
+}
+
+
+.menu a:hover {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+ }
+
+
+.navi {
+    display: inline-block;
+}
+
+
+.butoni-header {
+    background-color: #03396C;
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding:10px;
+    margin-left: 20px;
+    border-radius:5px;
+    transition: 0.15s;
+    cursor: pointer;
+}
+
+.butoni-header:hover {
+    opacity: 0.7;
+}
+
+
+@media only screen and (max-width: 764px) {
+    .menu {
+        display: none
+    }
+
+    .butoni-header {
+        display: none;
+    }
+
+    .hamburger {
+        display: inline-block;
+        width: 30px;
+    }
+
+    .mbajtesi-profilit{
+        display: flex;
+        justify-content: end;
+    }
+}
+
+
+@media only screen and (min-width: 765px) {
+  .hamburger{
+    display: none;
+  }
+}
